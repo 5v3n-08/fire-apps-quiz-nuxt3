@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "bash vuetify-monkey-patch.sh",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt-windicss": "^2.0.15",
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "fibers": "^5.0.0",
+    "pinia": "^2.0.6",
+    "sass": "^1.44.0",
+    "sass-loader": "^10.2.0",
+    "vuetify": "^3.0.0-alpha.11"
+  }
+}
