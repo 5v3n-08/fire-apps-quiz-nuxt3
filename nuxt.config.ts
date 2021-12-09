@@ -11,8 +11,6 @@ export default defineNuxtConfig({
   ],
   vue: {
     config: {
-      silent: true,
-      performance: true,
       devtools: true,
     },
   },
