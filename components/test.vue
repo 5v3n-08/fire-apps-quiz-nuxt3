@@ -1,17 +1,8 @@
 <template>
-  <div>
-    <div>{{ state.double }}</div>
-    <Test />
-  </div>
+  <div>Test</div>
 </template>
 
 <script setup lang="ts">
-import { defineComponent } from "vue";
-import { useCounter } from "./stores/counter";
-import Test from "@/components/test";
-
-const state = useCounter();
-
 const props = withDefaults(defineProps<Props>(), {
   msg: "hello",
   labels: () => ["one", "two"],
