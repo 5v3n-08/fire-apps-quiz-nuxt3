@@ -7,10 +7,14 @@ export default defineNuxtConfig({
     // https://windicss.org/integrations/nuxt.html
     "nuxt-windicss",
     // https://pinia.esm.dev/
-    // "@pinia/nuxt",
+    "@pinia/nuxt",
   ],
-  env: {
-    DEBUG: false,
+  vue: {
+    config: {
+      silent: true,
+      performance: true,
+      devtools: true,
+    },
   },
   build: {
     transpile: ["vuetify"],
