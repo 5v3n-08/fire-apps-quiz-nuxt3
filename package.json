@@ -7,15 +7,20 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.178",
     "nuxt-windicss": "^2.0.15",
     "nuxt3": "latest"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@pinia/nuxt": "^0.1.6",
     "fibers": "^5.0.0",
+    "lodash": "^4.17.21",
+    "mande": "^1.0.0",
     "pinia": "^2.0.6",
     "sass": "^1.44.0",
     "sass-loader": "^10.2.0",
+    "sjs-base-model": "^1.9.1",
     "vuetify": "^3.0.0-alpha.12"
   }
 }
